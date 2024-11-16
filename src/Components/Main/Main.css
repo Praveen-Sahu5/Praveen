@@ -1,0 +1,44 @@
+.container {
+    text-align:center;
+    padding:20px;
+}
+.header{
+    margin-bottom:20px;
+}
+.heading {
+    font-size:38px;
+    color: black;
+    margin-bottom:10px;
+    font-weight:bold;
+}
+.tech-company {
+    font-size:48px;
+    font-weight:bold;
+    color: orange;
+    margin-bottom:20px;
+}
+.paragraph {
+    font-size:26px;
+    color:black;
+    line-height:1.5;
+}
+.bullet-points {
+    list-style-type: none;
+    padding:0;
+    margin:0;
+    display:flex;
+    justify-content:space-between;
+}
+
+.bullet-points li {
+    font-size:26px;
+    color:black;
+    margin-bottom:10px;
+    font-weight:bold;
+
+}
+.bullet-point-symbol {
+    margin-right:7px;
+    color:orange;
+    
+}

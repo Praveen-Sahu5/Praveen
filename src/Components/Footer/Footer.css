@@ -1,0 +1,40 @@
+.about-section {
+    background-color:white;
+    padding:50px 0;
+    background-color:black;
+}
+.container{
+    max-width:1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.about-content, .company-info, .services, .portfolio, .contact-info {
+    flex: 1;
+    padding: 20px;
+    color:orange;
+}
+  
+.about-content h2, .company-info h2, .services h2, .portfolio h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    
+}
+  
+.about-content p, .company-info ul, .services ul, .portfolio ul, .contact-info p {
+    font-size: 16px;
+    line-height: 1.5;
+    color:white;
+    cursor:pointer;
+}
+  
+.company-info ul, .services ul, .portfolio ul, .contact-info ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+  
+.company-info li, .services li, .portfolio li, .contact-info {
+    font-size:30px;
+}

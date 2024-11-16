@@ -1,0 +1,77 @@
+.hero{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  background-color:white;
+  padding:20px;
+}
+.hero-header {
+  display:flex;
+  justify-content:space-between;
+  width:100%;
+  align-items:center;
+  margin-bottom:30px;
+}
+.logo img {
+  height:100px;
+  width:500px;
+}
+.contact-info span {
+  margin-right:15px;
+  justify-content: space-evenly;
+  font-size:1.5rem;
+  cursor:pointer;
+}
+.menu-buttons button {
+  margin-left:10px;
+  padding:10px 20px;
+  font-size:16px;
+  background-color:black;
+  color: orange;
+  border:none;
+  cursor:pointer;
+  border-radius:5px;
+}
+.hero-content {
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  width:100%;
+  max-width:1200px;
+}
+.hero-left{
+  flex:1;
+  padding-right:20px;
+}
+.hero-left h2{
+  font-size:2.5rem;
+  font-weight:bold;
+}
+.hero-left h1{
+  font-size:2.3rem;
+  font-weight:bold;
+  color:orange;
+}
+.hero-left p {
+  font-size:1.5rem;
+  margin-top:10px;
+}
+.hero-buttons button {
+  margin-top:20px;
+  padding:12px 24px;
+  font-size:18px;
+  background-color:black;
+  color:orange;
+  border:none;
+  border-radius:5px;
+  cursor:pointer;
+}
+.hero-right {
+  flex:1;
+}
+.hero-image {
+  width:100%;
+  height:auto;
+  object-fit:cover;
+  border-radius:10px;
+}
