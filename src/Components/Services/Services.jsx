@@ -47,7 +47,21 @@ const Services = () => {
                     </p>
                 </div>
 
+                <div class="tier-item">
+                    <h2>Social Media Marketing</h2>
+                    <p>
+                    Ready to expand and market to your audiences on social media? 
+                    We build social media campaigns to help your business grow and 
+                    engage your followers. Our digital marketing agency identifies 
+                    your goals, performs competitor benchmarking and evaluates your 
+                    customers' online behavior. Using data and analytics, we develop 
+                    custom social media brand management and paid advertising strategies 
+                    tailored to your business.
+                    </p>
+                </div>
+
                 
+                    
             </div>
         </div>
     </section>
