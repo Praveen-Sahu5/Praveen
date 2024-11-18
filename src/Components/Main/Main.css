@@ -1,6 +1,7 @@
 .container {
     text-align:center;
     padding:20px;
+    
 }
 .header{
     margin-bottom:20px;
@@ -14,13 +15,15 @@
 .tech-company {
     font-size:48px;
     font-weight:bold;
-    color: orange;
+    color: #fd7e14;
     margin-bottom:20px;
 }
 .paragraph {
     font-size:26px;
     color:black;
     line-height:1.5;
+    max-width:900px;
+    text-align:center;
 }
 .bullet-points {
     list-style-type: none;
@@ -32,13 +35,15 @@
 
 .bullet-points li {
     font-size:26px;
-    color:black;
+    color:#fd7e14;
     margin-bottom:10px;
     font-weight:bold;
+    
 
 }
 .bullet-point-symbol {
     margin-right:7px;
-    color:orange;
+    color:black;
+    justify-content: space-between;
     
 }

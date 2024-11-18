@@ -10,20 +10,22 @@
     justify-content: space-between;
     align-items: flex-start;
 }
+
+
 .about-content, .company-info, .services, .portfolio, .contact-info {
     flex: 1;
     padding: 20px;
-    color:orange;
+    color:#fd7e14;
 }
   
 .about-content h2, .company-info h2, .services h2, .portfolio h2 {
-    font-size: 24px;
-    margin-bottom: 20px;
+    font-size: 25px;
+    margin-bottom: 10px;
     
 }
   
 .about-content p, .company-info ul, .services ul, .portfolio ul, .contact-info p {
-    font-size: 16px;
+    font-size: 10px;
     line-height: 1.5;
     color:white;
     cursor:pointer;

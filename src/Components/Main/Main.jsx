@@ -11,9 +11,9 @@ const Main = () => {
         </div>
         <div className="paragraph">
             <p>
-              Conative IT Solutions has worked with various
+              Yashi IT Solutions has worked with various
               businesses and organizations to provide instant 
-              services ad web solutions that enable clients to 
+              services and web solutions that enable clients to 
               quickly reconfigure and develop new business potential.  
             </p>
             <ul class="bullet-points">

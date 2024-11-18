@@ -1,20 +1,21 @@
 .services {
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap:30px;
     padding: 50px 0;
+    align-items:center;
 }
-  
+
 .title-heading h2 {
     text-align: center;
     font-size: 36px;
     margin-bottom: 40px;
+    color:black;
+    text-align: center;
     
 }
   
-.service-tiers {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 30px;
-}
-  
+ 
 .tier-item {
     background-color: white;
     border-radius: 10px;
@@ -22,11 +23,17 @@
     padding: 40px;
     text-align: center;
 }
+.tier-item:hover{
+    background-color:darkgray;
+    color:white;
+    transform:scale(1.05);
+    transition: all 0.3s ease-in-out;
+}
   
 .tier-item h2 {
     font-size: 30px;
     margin-bottom: 10px;
-    color:orange;
+    color:#fd7e14;
 }
   
 .tier-item p {

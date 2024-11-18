@@ -11,8 +11,8 @@ const Hero = () => {
           <img src={logo} alt="Logo" />
         </div>
         <div className="contact-info">
-          <span>📧 hr@conative.in</span>
-          <span>📧 info@conative.in</span>
+          <span>📧 hr@YashiITServices.in</span>
+          <span>📧 info@YashiITServices.in</span>
           <span>📞 +91-8269788173</span>
         </div>
         <div className="menu-buttons">

@@ -8,8 +8,8 @@ const Footer = () => {
       <footer className="about-section">
         <div className="container">
             <div className="about-content">
-                <h2>Conative IT Services</h2>
-                <p>Conative IT Solutions is an established web development 
+                <h2>Yashi IT Services</h2>
+                <p>Yashi IT Solutions is an established web development 
                     and design company that works with companies in all sectors 
                     of business. We combine the latest technologies, tools and 
                     frameworks with years of experience to deliver customized, reliable, 
@@ -51,9 +51,9 @@ const Footer = () => {
                 <h2>Contact Information</h2>
                 <ul>
                     <li>+91 46512154512</li>
-                    <li>infor@conative.in</li>
-                    <li>hr@conative.in</li>
-                    <li>conativesolutions.com</li>
+                    <li>info@YashiITServices.in</li>
+                    <li>hr@YashiITServices.in</li>
+                    <li>YashiITServices.com</li>
                 </ul>
             </div>
 
