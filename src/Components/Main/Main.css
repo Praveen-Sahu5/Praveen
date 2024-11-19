@@ -1,49 +1,59 @@
 .container {
-    text-align:center;
-    padding:20px;
-    
-}
-.header{
-    margin-bottom:20px;
-}
-.heading {
-    font-size:38px;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .header {
+    margin-bottom: 20px;
+  }
+  
+  .heading {
+    font-size: 38px;
     color: black;
-    margin-bottom:10px;
-    font-weight:bold;
-}
-.tech-company {
-    font-size:48px;
-    font-weight:bold;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  .tech-company {
+    font-size: 48px;
+    font-weight: bold;
     color: #fd7e14;
-    margin-bottom:20px;
-}
-.paragraph {
-    font-size:26px;
-    color:black;
-    line-height:1.5;
-    max-width:900px;
-    text-align:center;
-}
-.bullet-points {
+    margin-bottom: 20px;
+  }
+  
+  .paragraph {
+    font-size: 26px;
+    color: black;
+    line-height: 1.5;
+    max-width: 1400px;
+    text-align: center;
+  }
+  
+  .bullet-points {
     list-style-type: none;
-    padding:0;
-    margin:0;
-    display:flex;
-    justify-content:space-between;
-}
-
-.bullet-points li {
-    font-size:26px;
-    color:#fd7e14;
-    margin-bottom:10px;
-    font-weight:bold;
-    
-
-}
-.bullet-point-symbol {
-    margin-right:7px;
-    color:black;
+    padding: 0;
+    margin: 0;
+    display: flex;
     justify-content: space-between;
-    
+    animation: scroll 8s linear infinite;
+    color:#fd7e14;
+  }
+  
+  .bullet-points.scrolling {
+    animation-play-state: paused;
+  }
+  
+  @keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
+  .bullet-point-symbol {
+    margin-right: 7px;
+    color: #fd7e14;
+    justify-content: space-between;
 }
