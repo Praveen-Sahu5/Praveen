@@ -1,6 +1,7 @@
 .container {
     text-align: center;
     padding: 20px;
+    
   }
   
   .header {
@@ -37,6 +38,7 @@
     justify-content: space-between;
     animation: scroll 8s linear infinite;
     color:#fd7e14;
+    font-weight:bold;
   }
   
   .bullet-points.scrolling {
